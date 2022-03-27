@@ -3,8 +3,8 @@ import Hello from './Hello';
 import './App.css';
 
 
-function App() {
-  const name = 'react';
+function App(props) {
+  const subject = props.subject;
   const style = {
     backgroundColor: 'black',
     color: 'aqua',
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Hello />
-      <div style={style}>{name}</div>
+      <div style={style}>{subject}</div>
       <div className="gray-box"></div>
     </>
   );
