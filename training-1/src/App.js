@@ -1,5 +1,6 @@
 import React from 'react';
 import Hello from './Hello';
+import Wrapper from './Wrapper';
 import './App.css';
 
 
@@ -13,11 +14,11 @@ function App(props) {
   }
 
   return (
-    <>
-      <Hello />
+    <Wrapper>
+      <Hello name="react" color="red"/>
       <div style={style}>{subject}</div>
       <div className="gray-box"></div>
-    </>
+    </Wrapper>
   );
 }
 
