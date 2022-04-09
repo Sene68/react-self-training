@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from './Counter';
+import InputSample from './InputSample';
 
 
 function App(props) {
@@ -7,7 +7,7 @@ function App(props) {
 
 
   return (
-    <Counter/>
+    <InputSample/>
   );
 }
 
