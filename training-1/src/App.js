@@ -18,8 +18,8 @@ function App() {
   const [users, setUsers] = useState([
     {
       id: 1,
-      username: 'velopert',
-      email: 'public.velopert@gmail.com'
+      username: 'sene',
+      email: 'public.sene@gmail.com'
     },
     {
       id: 2,
@@ -28,8 +28,8 @@ function App() {
     },
     {
       id: 3,
-      username: 'liz',
-      email: 'liz@example.com'
+      username: 'sene2',
+      email: 'sene2@example.com'
     }
   ]);
 
